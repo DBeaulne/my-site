@@ -1,5 +1,6 @@
 /** Header component */
-import './Header.css';
+import { NavLink } from 'react-router-dom';
+import './Header.scss';
 
 
 function Header() {
@@ -7,13 +8,29 @@ function Header() {
 
   return (
     <header className="header">
-      <ul>
-        <li>DB</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li /**Contact form */>Contact</li>
-        <li>dark/light mode</li>
-      </ul>
+      <div className="header__logo">
+        <h5>DB</h5>
+      </div>
+      <nav className='header__nav'>
+        <div className='header__nav-link'>
+          <NavLink to="">
+            <h5>About</h5>
+          </NavLink>
+        </div>
+        <div className='header__nav-link'>
+          <NavLink to="">
+            <h5>Projects</h5>
+          </NavLink>
+        </div>
+        <div className='header__nav-link'>
+          <NavLink to="">
+            <h5>Contact</h5>
+          </NavLink>
+        </div>
+        <div className='header__nav-link'>
+          <h5>d/l mode</h5>
+        </div>
+      </nav>
     </header>
   );
 }

@@ -1,0 +1,15 @@
+/* Header.scss */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+  }
+}

@@ -1,0 +1,53 @@
+/* Baseline SCSS setup */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+

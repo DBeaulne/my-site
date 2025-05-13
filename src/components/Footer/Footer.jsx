@@ -1,4 +1,5 @@
-/** Header component */
+/** Footer component */
+import './Footer.scss';
 
 // import { useLocation } from "react-router-dom";
 

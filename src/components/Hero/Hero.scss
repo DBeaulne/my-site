@@ -1,0 +1,26 @@
+/* Header.scss */
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  &__title {
+    padding-top: 0.5rem;
+  }
+
+  &__image {
+    width: 50%;
+  }
+
+  &__profile-pic {
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  &__profile-blurb {
+    font-size: 0.65rem;
+  }
+}
