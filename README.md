@@ -7,4 +7,8 @@
 ## Structure
 - add header, footer, and hero component
 - install sass
+- add profile photo
+- add profile blurb
+- refine header layout
+- refine styling
  
