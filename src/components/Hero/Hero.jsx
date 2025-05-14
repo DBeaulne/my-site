@@ -1,5 +1,5 @@
 /** Header component */
-import './Hero.scss';
+import './Hero.css';
 import Headshot from '../../assets/DB.jpg';
 
 
