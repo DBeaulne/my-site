@@ -1,16 +1,16 @@
 import './App.scss';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as HRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage/Homepage";
 
 
 function App() {
 
   return (
-    <BrowserRouter>
+    <HRouter>
       <Routes>
         <Route index element={<Homepage />} />
       </Routes>
-    </BrowserRouter>
+    </HRouter>
   )
 }
 
