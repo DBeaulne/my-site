@@ -37,4 +37,9 @@ yarn-debug.log*
 yarn-error.log*
 .sass-cache/
 
+# Ignore all CSS files
+*.css
+
+# Except in the dist/assets folder
+!dist/assets/*.css
 
